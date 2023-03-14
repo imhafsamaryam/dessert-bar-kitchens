@@ -1,12 +1,6 @@
 import React from 'react'
-import Logo from './icons/logo'
-
-
 
 const Navbar = ({ loginOpen }) => {
-
-
-
 
     return (
         <div className="fixed top-0 w-[100%] pb-[2px] ">
