@@ -13,7 +13,7 @@ const LoginPopUp = ({ display }) => {
                     <div>
                         <p className='text-[18px] font-medium' >Welcome to Techarion</p>
                         <p className='text-[14px] font-light' >Please sign-in to your account and start the adventure</p>
-                        <button className='bg-[#1D4109] ' >Login</button>
+                        <button className='bg-[#1D4109] w-full ' >Login</button>
                     </div>
                 </div>
             </div>

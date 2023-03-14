@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
         <div className="fixed top-0 w-[100%] pb-[2px] ">
-            <img src='/images/navbar-bg.png' width={"100%"} />
+            <img src='/images/navbar-bg.png' alt='background' width={"100%"} />
             <div className='absolute top-0 left-0 px-[5rem] py-[1.5rem] flex justify-between w-full items-center '>
                 <div>
                     <ul className='flex justify-between w-[30vw]'>

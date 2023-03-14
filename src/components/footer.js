@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='bg-black w-full ' >
             <div className='flex flex-col items-center gap-[1rem] pb-[2rem] border-b-2 border-white'>
-                <img src='/images/footerlogo.png' height={"100%"} />
+                <img src='/images/footerlogo.png' alt='footer logo' height={"100%"} />
                 <p className='text-white text-[20px]'>Dessert.Bar.Kitchen</p>
                 <p className='text-[14px] text-white font-light'>+040 2355 7261</p>
                 <p className='text-[14px] text-white font-light'>savory@qodeinteractive.com</p>

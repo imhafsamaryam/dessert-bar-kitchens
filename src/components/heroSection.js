@@ -19,16 +19,16 @@ const HeroSection = () => {
         setInterval(
             () => {
                 bgImages.map((image) => {
-                    setImgSrc(image)
+                    return setImgSrc(image)
                 })
             }, 1000
         )
-    },bgImages)
+    })
 
     return (
         <div>
             <div className=''>
-                <img src={imgSrc} width={"100%"} />
+                <img src={imgSrc} alt='background' width={"100%"} />
             </div>
             <div className='flex flex-col gap-[0.5rem] absolute top-[40vh] left-[60vw] '>
                 <h2 className='text-[48px] text-white' >Dessert | Bar | Kitchen</h2>
